@@ -170,4 +170,9 @@ public class EmployeeService {
 		return list;
 
 	}
+
+	public Emploe updateProduct(Emploe emploe) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -78,7 +78,7 @@ public class employeeController {
  	@PutMapping("/update-emploe")
    	public Emploe updateEmploye(@RequestBody Emploe emploe)
    	{
- 		Emploe updatedEmploe = es.updateEmploe(emploe);
+ 		Emploe updatedEmploe = es.updateProduct(emploe);
 
 		return updatedEmploe;
    	}
